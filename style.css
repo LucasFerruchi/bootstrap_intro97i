@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  background-color: rgb(110, 110, 179);
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+}

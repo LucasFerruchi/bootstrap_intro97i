@@ -1,6 +1,18 @@
+@import url();
+
 :root {
+  --fuente: Arial, Helvetica, sans-serif;
   --main-color: #b9cbdd;
   --second-color: #83b1df;
+}
+
+h1 {
+  font-family: var(--fuente);
+  color: var(--second-color);
+}
+
+h3 {
+  font-family: var(--fuente);
 }
 
 body {

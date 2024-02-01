@@ -1,5 +1,18 @@
+:root {
+  --main-color: #b9cbdd;
+  --second-color: #83b1df;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+.tarjeta {
+  background-color: var(--second-color);
 }
 
 footer {

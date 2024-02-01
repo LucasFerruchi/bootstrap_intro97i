@@ -1,3 +1,12 @@
+:root {
+  --main-color: #b9cbdd;
+  --second-color: #83b1df;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
 footer {
   background-color: rgb(110, 110, 179);
 }
@@ -12,4 +21,58 @@ footer a {
 
 .headerRegistro {
   background-color: rgb(43, 40, 40);
+}
+
+/* MEDIA QUERY----------------------------------------*/
+
+/* sintaxis 
+
+@media screen (breakpoint) {
+  ACCION
+}
+
+-----
+
+@media (breakpoint) {
+  ACCION
+}
+
+------------------------------------------------------*/
+
+@media screen and (min-width: 420px) and (max-width: 575px) {
+  /* Reglas de estilo que se aplicarán cuando el ancho de la pantalla esté entre 600px y 1024px */
+  body {
+    background-color: #e2c2c2;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
+  form {
+    background-color: white;
+  }
+
+  .medio {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mapa {
+    text-align: center;
+  }
+}
+
+@media (max-width: 419px) {
+  h2 {
+    font-size: medium;
+  }
+
+  form {
+    background-color: white;
+  }
+
+  .mapa {
+    display: none;
+  }
 }

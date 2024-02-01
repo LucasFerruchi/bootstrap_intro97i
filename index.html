@@ -25,7 +25,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
+        <div class="container">
           <div>
             <img
               src="/assets/img/logo/disneyPlus.png"
@@ -51,15 +51,31 @@
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#">Inicio</a>
                 </li>
-
                 <li class="nav-item">
-                  <a class="nav-link" href="#redes">Redes</a>
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="/pages/login.html"
+                    >Login</a
+                  >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Galeria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                <!-- dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Más
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#redes">Redes</a></li>
+                    <li><a class="dropdown-item" href="#">Galeria</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  </ul>
                 </li>
               </ul>
             </div>
